@@ -1,0 +1,25 @@
+{
+  "name": "docker",
+  "version": "1.0.0",
+  "dependencies": {
+    "archiver": "latest",
+    "async": "latest",
+    "clone": "latest",
+    "recursive-readdir": "latest",
+    "nodemailer": "latest",
+    "request": "latest",
+    "winston": "latest"
+  },
+  "description": "Used for testing docker servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tmackall/docker.git"
+  },
+  "author": "Tom Mackall",
+  "license": "ISC"
+}
